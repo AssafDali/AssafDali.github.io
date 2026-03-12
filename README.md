@@ -1,1 +1,60 @@
-# AssafDali.github.io
+# .io<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assaf Dali | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding-top: 50px; background-color: #f4f7f6; }
+        .container { max-width: 800px; }
+        section { margin-bottom: 40px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .list-group-item:hover { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Assaf Dali</h1>
+        <p class="lead text-muted">Computer Science Student at HIT</p>
+        <hr>
+    </header>
+
+    <section id="about">
+        <h2 class="h4">About Me</h2>
+        <p>I am a Computer Science student at the Holon Institute of Technology (HIT). I specialize in C#, Java, C, C++, Python and Deep Learning. Dedicated to solving complex challenges through smart and efficient software engineering.</p>
+    </section>
+
+    <section id="projects">
+        <h2 class="h4">Projects</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <strong>Smart Doorbell:</strong> Assistive technology for the visually impaired using Raspberry Pi and AI.
+            </li>
+            <li class="list-group-item">
+                <strong>Deep Learning in IVF:</strong> Using ResNet models to classify embryo quality.
+            </li>
+            <li class="list-group-item">
+                <strong>Ticket Booking System:</strong> A multi-threaded Java application for real-time reservations.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="text-center">
+        <h2 class="h4">Contact</h2>
+        <p>Email: <a href="mailto:assaf1997@gmail.com" class="text-decoration-none">assaf1997@gmail.com</a></p>
+        <div class="mt-3">
+            <a href="https://www.linkedin.com/in/assaf-dali-computer-science/" target="_blank" class="btn btn-primary btn-sm">LinkedIn</a>
+            <a href="https://github.com/AssafDali" target="_blank" class="btn btn-dark btn-sm">GitHub</a>
+        </div>
+    </section>
+
+    <footer class="text-center mt-5 pb-4 text-muted">
+        <small>&copy; 2026 Assaf Dali</small>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
